@@ -1,4 +1,4 @@
-Link : ```https://leetcode.com/problems/minimum-depth-of-binary-tree```
+Link : ```<a>https://leetcode.com/problems/minimum-depth-of-binary-tree</a>```
 
 Given a binary tree, find its minimum depth.
 
@@ -14,7 +14,6 @@ Example No | Input | Output
 -----------|-------|--------
 1 | root = [3,9,20,null,null,15,7] | Output: 2
 2 | root = [2,null,3,null,4,null,5,null,6] | Output: 5
------------|-------|--------
 
 ```Example 1:```
 Input: root = [3,9,20,null,null,15,7]
