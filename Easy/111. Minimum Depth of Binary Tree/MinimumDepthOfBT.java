@@ -4,6 +4,9 @@
  */
 public class MinimumDepthOfBT {
 
+	/*
+	 * Solution with recursive approach 
+	 */
 	public static void main(String[] args) {
 		TreeNode root = new TreeNode(3);
 		root.left = new TreeNode(9);
