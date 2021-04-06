@@ -24,6 +24,8 @@ public class Merge2List {
 	}
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
+		if(l1 == null && l2 ==null)
+            return null;
 		PriorityQueue<Integer> queue = new PriorityQueue<>();
 
 		while(l1!=null) {
@@ -35,7 +37,7 @@ public class Merge2List {
 			l2 = l2.next;
 		}
 
-		ListNode result = new ListNode(queue.isEmpty()?null:queue.poll());
+		ListNode result = new ListNode(queue.isEmpty()?0:queue.poll());
 		ListNode tempResult = result;
 		while(!queue.isEmpty()) {
 			tempResult.next = new ListNode(queue.poll());
